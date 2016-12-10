@@ -1,0 +1,62 @@
+.chatspace {
+  min-width: 980px;
+  height: 100%;
+}
+
+.chat-main {
+  position: relative;
+  height: 100vh;
+  width: calc(100% - 300px);
+  float: left;
+  background-color: #F5F5F5;
+}
+
+  .chat-header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: white;
+
+    &__left {
+      padding-top: 30px;
+      padding-bottom: 10px;
+      .group {
+        font-size: 20px;
+        color: #333333;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+      }
+      .user {
+        font-size: 12px;
+        color: #999999;
+      }
+    }
+    &__right {
+      float: right;
+      .edit-btn {
+        width: 60px;
+        height: 40px;
+        margin: 28px 0;
+        padding-right: 10px;
+        padding-left: 10px;
+        line-height: 40px;
+        color: #38aef0;
+        font-size: 14px;
+        border: 2px solid;
+        text-align: center;
+      }
+    }
+  }
+
+  .chat-content {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+
+  .chat-form {
+
+    }
