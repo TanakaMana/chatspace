@@ -85,6 +85,17 @@
   }
 }
 
-.chat-form {
-
+.chat-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px 40px;
+  background-color: #ddd;
   }
+  &__massagebody {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+}
