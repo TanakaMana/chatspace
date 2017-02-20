@@ -1,0 +1,59 @@
+.chatspace
+  .chat-side
+    .chat-user
+      .chat-user__name
+        %h5 tanamana
+      .chat-user__action
+        %i.fa.fa-pencil-square-o
+        %i.fa.fa-cog
+    .chat-group
+      .chat-group__name
+        %p らっこ
+      .chat-group__message
+        %p まだメッセージはありません
+    .chat-group
+      .chat-group__name
+        %p ねこ
+      .chat-group__message
+        %p まだメッセージはありません
+    .chat-group
+      .chat-group__name
+        %p うさぎ
+      .chat-group__message
+        %p まだメッセージはありません
+  .chat-main
+    .chat-header
+      .chat-header__left
+        %h2.group らっこ
+        %p.user Members: tanamana
+      .chat-header__right
+        %a.edit-btn Edit
+    .chat-body
+      %ul.chat-contents
+        %li.chat-content
+          .chat-content__header
+            .chat-content__name
+              %p tanamana
+            .chat-content__time
+              %p 2016/12/10 23:59:59
+          .chat-content__message
+            %p らっこ可愛い
+        %li.chat-content
+          .chat-content__header
+            .chat-content__name
+              %p tanamana
+            .chat-content__time
+              %p 2016/12/11 00:00:01
+          .chat-content__message
+            %p らっこ眠たい
+        %li.chat-content
+          .chat-content__header
+            .chat-content__name
+              %p tanamana
+            .chat-content__time
+              %p 2016/12/11 23:59:59
+          .chat-content__message
+            %p らっこ遊んでる
+    .chat-footer
+      .chat-footer__messagebody
+        %textarea, placeholder: "Type a message"
