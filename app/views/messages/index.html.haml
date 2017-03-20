@@ -56,4 +56,9 @@
             %p らっこ遊んでる
     .chat-footer
       .chat-footer__messagebody
-        %textarea, placeholder: "Type a message"
+        .chat-footer__messagebody__text
+          %textarea{ placeholder: 'type a message' }
+        .chat-footer__messagebody__image
+          %i.fa.fa-picture-o
+      .chat-footer__send
+        %a.send-btn Send
