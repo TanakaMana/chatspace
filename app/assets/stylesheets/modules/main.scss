@@ -92,10 +92,46 @@
   left: 0;
   padding: 20px 40px;
   background-color: #ddd;
+
+  &__messagebody {
+    position: absolute;
+    &__text {
+      textarea {
+        height: 50px;
+        width: calc(100vw - 505px);
+        line-height: 50px;
+        border: none;
+        resize: none;
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+        padding-left: 10px;
+      }
+    }
+    &__image {
+      i {
+        right: 5px;
+        bottom: 15px;
+        width: 30px;
+        height: 30px;
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+        line-height: 30px;
+        padding-left: 10px;
+        position: absolute;
+      }
+    }
   }
-  &__massagebody {
-    color: inherit;
-    font: inherit;
-    margin: 0;
+  &__send {
+    .send-btn {
+    float: right;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 50px;
+    background-color: #38aef0;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    }
   }
 }
