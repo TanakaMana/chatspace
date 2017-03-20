@@ -9,15 +9,15 @@
   width: calc(100% - 300px);
   display: inline-block;
   float: right;
-  background-color: #F5F5F5;
+  background-color: $chat_index_color;
 }
 
 .chat-header {
   height: 100px;
   padding-right: 40px;
   padding-left: 40px;
-  background-color: white;
-  border-bottom: 1px solid #eeeeee;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid $light_blue;
 
   &__left {
     padding-top: 30px;
@@ -25,14 +25,14 @@
     display: inline-block;
     .group {
       font-size: 20px;
-      color: #333333;
+      color: $font_group_color;
       letter-spacing: 2px;
       padding-bottom: 10px;
     }
     .user {
       font-size: 12px;
       line-height: 20px;
-      color: #999999;
+      color: $font_user_color;
     }
   }
   &__right {
@@ -77,7 +77,7 @@
   &__time {
     display: inline-block;
     margin-left: 10px;
-    color: #aaa;
+    color: $font_time_color;
     font-size: 12px;
   }
   &__message {
@@ -91,7 +91,7 @@
   bottom: 0;
   left: 0;
   padding: 20px 40px;
-  background-color: #ddd;
+  background-color: $chat_footer_color;
 
   &__messagebody {
     position: absolute;
@@ -102,7 +102,7 @@
         line-height: 50px;
         border: none;
         resize: none;
-        background-color: #FFFFFF;
+        background-color: $white;
         box-sizing: border-box;
         padding-left: 10px;
       }
@@ -112,7 +112,7 @@
         right: 5px;
         bottom: 15px;
         padding: 0 10px;
-        background-color: #FFFFFF;
+        background-color: $white;
         box-sizing: border-box;
         line-height: 30px;
         position: absolute;
@@ -129,7 +129,7 @@
       background-color: #38aef0;
       font-size: 16px;
       text-align: center;
-      color: white;
+      color: $white;
     }
   }
 }
