@@ -98,7 +98,7 @@
     &__text {
       textarea {
         height: 50px;
-        width: calc(100vw - 505px);
+        width: calc(100vw - 495px);
         line-height: 50px;
         border: none;
         resize: none;
@@ -111,12 +111,10 @@
       i {
         right: 5px;
         bottom: 15px;
-        width: 30px;
-        height: 30px;
+        padding: 0 10px;
         background-color: #FFFFFF;
         box-sizing: border-box;
         line-height: 30px;
-        padding-left: 10px;
         position: absolute;
       }
     }
@@ -129,7 +127,7 @@
       padding-left: 30px;
       line-height: 50px;
       background-color: #38aef0;
-      font-size: 14px;
+      font-size: 16px;
       text-align: center;
       color: white;
     }
