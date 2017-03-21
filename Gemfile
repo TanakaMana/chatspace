@@ -12,12 +12,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'byebug'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
-  gem 'haml-rails'
   gem 'erb2haml'
-  gem 'font-awesome-rails'
+  gem 'hirb'
 end
+
+gem 'font-awesome-rails'
+gem 'haml-rails'
