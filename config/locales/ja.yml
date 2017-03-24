@@ -8,3 +8,4 @@ ja:
         email: メールアドレス
         password: パスワード(英数字8文字以上)
         password_confirmation: 確認用パスワード
+        current_password: 現在のパスワード
