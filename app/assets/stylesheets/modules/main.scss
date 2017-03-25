@@ -17,7 +17,7 @@
   padding-right: 40px;
   padding-left: 40px;
   background-color: #FFFFFF;
-  border-bottom: 1px solid $light_blue;
+  border-bottom: 1px solid $gray;
 
   &__left {
     padding-top: 30px;
@@ -43,7 +43,7 @@
       padding-right: 20px;
       padding-left: 20px;
       line-height: 40px;
-      color: #38aef0;
+      color: $light_blue;
       font-size: 14px;
       border: 2px solid;
       text-align: center;
@@ -126,7 +126,7 @@
       padding-right: 30px;
       padding-left: 30px;
       line-height: 50px;
-      background-color: #38aef0;
+      background-color: $light_blue;
       font-size: 16px;
       text-align: center;
       color: $white;
