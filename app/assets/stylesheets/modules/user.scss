@@ -90,17 +90,7 @@
   .field-input {
     .field_with_errors {
       position: relative;
-
-      &:after {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        width: 5px;
-        background-color: $doll_red;
-      }
+      @include clearfix();
     }
   }
 }
