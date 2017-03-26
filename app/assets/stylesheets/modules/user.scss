@@ -11,11 +11,7 @@
       float: left;
       width: 50%;
     }
-    &:after {
-      clear: both;
-      content: "";
-      display: block;
-    }
+    @include clearfix();
   }
 
   .account-page__header {
@@ -25,13 +21,7 @@
       font-size: 40px;
       font-weight: 200;
 
-      &:after {
-        content: '';
-        display: block;
-        width: 60px;
-        margin-top: 5px;
-        border-bottom: 1px solid $light_blue;
-      }
+      @include clearfix();
     }
 
     h5 {
