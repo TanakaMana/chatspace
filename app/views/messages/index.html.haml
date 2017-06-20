@@ -2,10 +2,14 @@
   .chat-side
     .chat-user
       .chat-user__name
-        %h5 tanamana
+        %h5= current_user.name
       .chat-user__action
-        %i.fa.fa-pencil-square-o
-        %i.fa.fa-cog
+        .chat-user__action__group
+        = link_to edit_user_registration_path(current_user), class: 'chat-user__action__group' do
+          %i.fa.fa-cog
+        .chat-user__action__user
+        = link_to '', class: 'chat-user__action__user' do
+          %i.fa.fa-pencil-square-o
     .chat-group
       .chat-group__name
         %p らっこ

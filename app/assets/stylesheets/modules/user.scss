@@ -1,0 +1,119 @@
+.account-page {
+  .account-page__inner {
+    width: 980px;
+    margin: 60px auto;
+    padding: 60px;
+    background-color: $white;
+    border: 1px solid $chat_footer_color;
+    border-radius: 5px;
+
+    .account-page__inner--left, .account-page__inner--right {
+      float: left;
+      width: 50%;
+    }
+    @include clearfix();
+  }
+
+  .account-page__header {
+    h2 {
+      margin-bottom: 10px;
+      letter-spacing: 3px;
+      font-size: 40px;
+      font-weight: 200;
+
+      @include clearfix();
+    }
+
+    h5 {
+      margin-bottom: 20px;
+      font-size: 14px;
+      font-weight: 200;
+    }
+
+    .btn {
+      margin-top: 20px;
+      color: $white;
+      background-color: #CCCCCC;
+      font-size: 14px;
+    }
+  }
+
+  .field {
+    margin-bottom: 10px;
+
+    .field-label {
+      padding: 10px 0;
+      letter-spacing: 1px;
+      font-size: 14px;
+      font-weight: 200;
+
+      i {
+        font-size: 11px;
+      }
+    }
+
+    .field-input {
+      input {
+        width: 100%;
+        padding: 10px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+  }
+
+  input[type='submit'] {
+    float: left;
+    margin-top: 20px;
+    color: $white;
+    background-color: $light_blue;
+  }
+
+  .field-label {
+    .field_with_errors {
+      display: inline-block;
+      color: $doll_red;
+      font-weight: 400;
+    }
+  }
+
+  .field-input {
+    position: relative;
+    @include clearfix();
+  }
+}
+
+#error_explanation {
+  margin: 20px 0;
+  padding: 20px 30px;
+  border: 1px solid $chat_footer_color;
+  border-radius: 2px;
+
+  h2 {
+    margin-bottom: 10px;
+    color: $doll_red;
+    font-size: 14px;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 17px;
+    list-style: square;
+  }
+
+  li {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+  }
+}

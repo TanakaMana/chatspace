@@ -9,7 +9,7 @@
 .chat-user {
   height: 60px;
   background-color: #253141;
-  padding: 20px;
+  padding: 20px 10px 20px 20px;
 
   &__name {
     float: left;
@@ -22,8 +22,16 @@
   }
   &__action {
     float: right;
-    padding: 15px 0px 0px;
+    padding-top: 15px;
     font-size: 20px;
+    &__group {
+      color: $white;
+    }
+    &__user {
+      float: left;
+      color: $white;
+      padding-right: 10px;
+    }
   }
 }
 
