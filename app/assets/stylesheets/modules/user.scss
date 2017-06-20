@@ -88,10 +88,8 @@
   }
 
   .field-input {
-    .field_with_errors {
-      position: relative;
-      @include clearfix();
-    }
+    position: relative;
+    @include clearfix();
   }
 }
 
