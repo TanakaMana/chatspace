@@ -8,6 +8,11 @@
 
 Sass, BEMを使用してゼロからデザインカンプを元にマークアップ
 
+## デモ
+https://tnmn-chatspace.herokuapp.com
+
+デモ用アカウント：test@gmail.com / testtest
+
 ## 実装機能（予定）
 - 新規登録機能
 - 1対1のチャット機能
